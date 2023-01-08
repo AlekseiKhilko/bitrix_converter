@@ -19,7 +19,7 @@ CAgent::AddAgent("updateCurrency();");
 
 
 
-Структруа БД
+## Структруа БД
 
 ```
 DROP TABLE IF EXISTS `hr_rates`;
