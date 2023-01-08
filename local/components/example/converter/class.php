@@ -15,10 +15,10 @@ class ExampleConverterComponent extends CBitrixComponent implements \Bitrix\Main
     public function calculateAction($amount, $from, $to)
     {
         $this->getRates();
-        $fromRate = $this->getRateById((float)$from);
-        $toRate = $this->getRateById((float)$to);
+        $fromRate = $this->getRateById($from);
+        $toRate = $this->getRateById($to);
         $rate = ($fromRate / $toRate);
-        $date = $this->getDateById((float)$to);
+        $date = $this->getDateById($to);
         return ["result" => round((float)$amount * $rate, 4), "date" => $date];
     }
 
@@ -72,6 +72,7 @@ class ExampleConverterComponent extends CBitrixComponent implements \Bitrix\Main
 
     protected function getRateById($id)
     {
+        $id = (int)$id;
         if(isset($this->rates[$id])) {
             return (float)$this->rates[$id]["RATE"];
         }
@@ -80,6 +81,7 @@ class ExampleConverterComponent extends CBitrixComponent implements \Bitrix\Main
 
     protected function getDateById($id)
     {
+        $id = (int)$id;
         if(isset($this->rates[$id])) {
             return (string)$this->rates[$id]["DATE"];
         }
