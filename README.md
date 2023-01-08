@@ -1,4 +1,4 @@
-# bitrix_converter
+# bitrix currency converter component
 
 Обновить курсы валют http://localhost/local/update.php
 
