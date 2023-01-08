@@ -14,5 +14,5 @@
         <option value="<?=$arCurrency["ID"]?>"<?=($arCurrency["CURRENCY"]==$arResult["DEFALUT_CURRENCY_TO"]?" selected":"")?>><?=$arCurrency["CURRENCY"]?></option>
     <?endforeach?>
 </select>
-<input name="calculate" type="button" value="<?=getMessage('EXAMPLE_CONVERTER_TEXT_CALCULATE')?>" onclick="calculate()">
+<input name="calculate" id="calculate" type="button" value="<?=getMessage('EXAMPLE_CONVERTER_TEXT_CALCULATE')?>" onclick="calculate()">
     <div id="last_update"></div>
