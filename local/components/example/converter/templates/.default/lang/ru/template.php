@@ -1,0 +1,3 @@
+<?php
+$MESS['EXAMPLE_CONVERTER_TEXT_CONVERT'] = "Конвертировать:";
+$MESS['EXAMPLE_CONVERTER_TEXT_CALCULATE'] = "Рассчитать";

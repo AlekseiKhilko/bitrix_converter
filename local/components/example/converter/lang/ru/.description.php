@@ -1,0 +1,10 @@
+<?
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+
+$MESS["EXAMPLE_CONVERTER_COMPONENT_PATH_ID"] = "example";
+$MESS["EXAMPLE_CONVERTER_COMPONENT_PATH_NAME"] = "Мои компоненты проекта";
+$MESS["EXAMPLE_CONVERTER_COMPONENT_CHILD_PATH_ID"] = "CURRENCY";
+$MESS["EXAMPLE_CONVERTER_COMPONENT_CHILD_PATH_NAME"] = "Валюты";
+$MESS["EXAMPLE_CONVERTER"] = "Дочерняя ветка";
+$MESS["EXAMPLE_CONVERTER_COMPONENT"] = "Тестовый конвертор валют";
+$MESS["EXAMPLE_CONVERTER_COMPONENT_DESCRIPTION"] = "Конвеортов валют на основе курсов НБ РБ";
