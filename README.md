@@ -11,6 +11,12 @@ if($updateRates->update()){
    echo "Успешно обновлено";
 }
 ```
+или
+
+CAgent::AddAgent("updateCurrency();");
+
+
+
 
 
 Структруа БД
