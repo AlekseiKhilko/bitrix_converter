@@ -1,8 +1,8 @@
 # bitrix currency converter component 
 
-Компонент конвертора валют на оснвое курсво НБ РБ
+Компонент конвертора валют с использование AJAX и кэширвоания. На оснвое курсво НБ РБ
 
-![alt text](screenshot.png)
+ 
 
 
 Обновить курсы валют http://localhost/local/update.php
