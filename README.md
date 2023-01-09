@@ -2,6 +2,7 @@
 
 Компонент конвертора валют на оснвое курсво НБ РБ
 
+![alt text](screenshot.png)
 
 
 Обновить курсы валют http://localhost/local/update.php
