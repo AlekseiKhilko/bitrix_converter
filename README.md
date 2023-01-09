@@ -1,4 +1,8 @@
-# bitrix currency converter component
+# bitrix currency converter component 
+
+Компонент конвертора валют на оснвое курсво НБ РБ
+
+
 
 Обновить курсы валют http://localhost/local/update.php
 
